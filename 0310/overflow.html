@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS overflow</title>
+    <style>
+        div{border:4px solid yellowgreen;width: 200px; height: 200px; display: inline-block;}
+        div.container1{
+            white-space: nowrap;
+            overflow-x: auto;
+            overflow-y: hidden;
+        }
+        div.container2{
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+        div.container3{
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <p>
+            <a style="color: blue;">CSS overflow 속성은 요소내의 컨텐츠가 <br>영역보다 많을 때 보여지는 속성입니다.</a>
+            <br>생각이 많은 건 <br>말이야 당연히 해야 할 일이야<br> 나에겐 우리가 지금 1순위야 <br>
+            안전한 유리병을 핑계로<br> 바람을 가둬 둔 것 같지만<br>
+            기억나? 그날의 우리가 잡았던 <br>그 손엔 말이야 설레임보다<br> 
+            커다란 믿음이 담겨서<br> 난 함박웃음을 지었지만<br> 울음이 날 것도 같았어
+        </p>
+    </div>
+    <div class="container2">
+        <p>
+         <a style="color: blue;">CSS overflow 속성은 요소내의 컨텐츠가 영역보다 많을 때 보여지는 속성입니다.</a>
+         <br>소중한 건 언제나 두려움이니까<br>문을 열면 들리던 목소리
+         <br>너로 인해 변해있던 <br>따뜻한 공기<br>여전히 자신 없지만 안녕히
+         <br>저기, 사라진 별의 자리<br>아스라이 하얀 빛 <br>한동안은 꺼내 볼 수 있을 거야
+         <br>아낌없이 반짝인 시간은<br> 조금씩 옅어져 가더라도
+        </p>
+    </div>
+    <div class="container3">
+        <img src="fox.jpg" alt="예시">
+    </div>
+</body>
+
+</html>

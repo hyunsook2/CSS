@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible", content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Multi Columns</title>
+    <style>
+        #orgin{
+            margin:30px 0;
+            column-count: 3;
+            column-rule-style: solid;
+            column-rule-color: skyblue;
+            column-rule-width: 5px;
+        }
+        #gap{
+            column-width: 100px;
+            column-gap: 70px;
+            column-rule:black 3px solid;
+        }
+        #merge{column-span: all;}
+    </style>
+</head>
+<body>
+    <h1>컬럼 속성을 이용한 생성</h1>
+    <div id="orgin">
+        <h4>컬럼 생성</h4>
+        <p>
+            별들이 짙던 밤 하늘에 약속한 고백
+            아직도 맘에 당연하듯 남아 있어요
+            어제 일같이 선명하네요
+            가슴 저리는 게 사랑이 아니라 그 누가 뭐라던가, 오
+            심장이 뛰는데 아프게 뛰는데 이게 사랑인 거야
+            운명 같은 밤 너를 만나 영원하자고 외쳤던 그 밤
+            네가 날 잊어도 난 널 꺼내 볼 테니까 언제나
+            내 맘속 사진첩 한 켠엔 그대가 있지
+            참 행복했지 때론 아픈 날이 있어도
+            버릴 수 없는 추억이 됐지
+            가슴 저리는 게 사랑이 아니라 그 누가 뭐라던가, 오
+            심장이 뛰는데 아프게 뛰는데 이게 사랑인 거야
+            운명 같은 밤 너를 만나 영원하자고 외쳤던 그 밤
+            네가 날 잊어도 난 널 꺼내 볼 테니까 언제나
+        </p>
+    </div>
+    <div id="gap">
+        <h4 id="merge">span으로 컬럼 병합</h4>
+        <p>
+            별들이 짙던 밤 하늘에 약속한 고백
+            아직도 맘에 당연하듯 남아 있어요
+            어제 일같이 선명하네요
+            가슴 저리는 게 사랑이 아니라 그 누가 뭐라던가, 오
+            심장이 뛰는데 아프게 뛰는데 이게 사랑인 거야
+            운명 같은 밤 너를 만나 영원하자고 외쳤던 그 밤
+            네가 날 잊어도 난 널 꺼내 볼 테니까 언제나
+            내 맘속 사진첩 한 켠엔 그대가 있지
+            참 행복했지 때론 아픈 날이 있어도
+            버릴 수 없는 추억이 됐지
+            가슴 저리는 게 사랑이 아니라 그 누가 뭐라던가, 오
+            심장이 뛰는데 아프게 뛰는데 이게 사랑인 거야
+            운명 같은 밤 너를 만나 영원하자고 외쳤던 그 밤
+            네가 날 잊어도 난 널 꺼내 볼 테니까 언제나
+        </p>
+    </div>
+</body>
+</html>

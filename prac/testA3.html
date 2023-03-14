@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>지원서</title>
+    <style>
+        fieldset { margin-bottom:15px; }
+        legend { font-weight:bold; }
+        ul.show{list-style-type: square;}
+		ul.noshow {list-style-type: none;}
+		li { line-height:30px;}
+    </style>
+  </head>
+  <body>
+    <style>
+      header{
+          background-color: rgb(255, 230, 0);
+          height: 50px;
+          width: 380px;
+      }
+    </style>
+    <style>
+      h1{color:rgb(113, 31, 255)}
+      h4{color:rgb(35, 213, 15)}
+    </style>
+      <header><h1>프런트엔드 개발자 지원서</h1></header>
+
+      HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.
+      <body>
+      <ul style="list-style-type: disc;">
+        <li>모집 직군 : 개발자</li>
+        <li>직무 내용 : 사이트 화면 관련</li>
+         <ul style="list-style-type: circle;">
+         <li>화면 기획,구현</li>
+         <li>수정사항 반영 및 유지보수</li>
+         </ul>
+        <li>접수 마감일 : 2022.08.26</li>
+      </ul>
+      <hr>
+      <form action="#" method="get">
+      <h4>개인정보</h4>
+      <ul style="list-style-type: none;">
+      <li><label for="name">이름</label> <input type="text" name="text1" placeholder="공백없이 입력하세요"></li>
+      <li><label for="tel">연락처</label>  <input type="text" name="text1" placeholder=""></li>
+      <li><label for="date">지원일자</label>  <input type="date" name="dday" placeholder="날짜"></li>
+      </ul>
+    
+      <h4>지원 분야</h4>
+      <ul style="list-style-type: none;">
+      <li><input type="radio" name="lecture" value="웹 퍼블리싱" checked>웹 퍼블리싱</li>
+      <li><input type="radio" name="lecture" value="웹 애플리케이션 개발">웹 애플리케이션 개발</li>
+      <li><input type="radio" name="lecture" value="개발 환경 개선">개발 환경 개선</li>
+      </ul>
+
+      <h4>지원동기</h4>
+      <textarea name="message" rows="5" cols="45" placeholder="본사 지원 동기를 간략히 써 주세요"></textarea><br>
+      <input type="submit">접수하기</button>   <input type="reset">다시쓰기</button>
+      </form>
+      </body>
+</html>
